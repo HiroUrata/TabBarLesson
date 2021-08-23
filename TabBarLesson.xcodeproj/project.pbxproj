@@ -13,6 +13,7 @@
 		547EF4A926D3A60E00D32457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547EF4A726D3A60E00D32457 /* Main.storyboard */; };
 		547EF4AB26D3A60E00D32457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547EF4AA26D3A60E00D32457 /* Assets.xcassets */; };
 		547EF4AE26D3A60E00D32457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547EF4AC26D3A60E00D32457 /* LaunchScreen.storyboard */; };
+		547EF4B626D3A67100D32457 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547EF4B526D3A67100D32457 /* TabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		547EF4AA26D3A60E00D32457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		547EF4AD26D3A60E00D32457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		547EF4AF26D3A60E00D32457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547EF4B526D3A67100D32457 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				547EF4A126D3A60E00D32457 /* AppDelegate.swift */,
 				547EF4A326D3A60E00D32457 /* SceneDelegate.swift */,
 				547EF4A526D3A60E00D32457 /* ViewController.swift */,
+				547EF4B526D3A67100D32457 /* TabViewController.swift */,
 				547EF4A726D3A60E00D32457 /* Main.storyboard */,
 				547EF4AA26D3A60E00D32457 /* Assets.xcassets */,
 				547EF4AC26D3A60E00D32457 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				547EF4B626D3A67100D32457 /* TabViewController.swift in Sources */,
 				547EF4A626D3A60E00D32457 /* ViewController.swift in Sources */,
 				547EF4A226D3A60E00D32457 /* AppDelegate.swift in Sources */,
 				547EF4A426D3A60E00D32457 /* SceneDelegate.swift in Sources */,
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.TabBarLesson.TabBarLesson;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.TabBarLesson.TabBarLesson;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
